@@ -1,0 +1,36 @@
+<linker>
+	<assembly fullname="UnityEngine.GameCenterModule" preserve="nothing">
+<!--THIS FILE IS GENERATED DURING BUILD. DO NOT HAND EDIT. See https://confluence.hq.unity3d.com/display/DEV/How+to+Use+Scripting+Classes+and+Methods+from+Native+Code for more info.-->
+		<type fullname="UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform" preserve="nothing">
+			<method name="AchievementCallbackWrapper"/>
+			<method name="AuthenticateCallbackWrapper"/>
+			<method name="ClearAchievementDescriptions"/>
+			<method name="ClearFriends"/>
+			<method name="ClearUsers"/>
+			<method name="LeaderboardCallbackWrapper"/>
+			<method name="PopulateLocalUser"/>
+			<method name="ProgressCallbackWrapper"/>
+			<method name="SafeSetUserImage"/>
+			<method name="ScoreCallbackWrapper"/>
+			<method name="ScoreLoaderCallbackWrapper"/>
+			<method name="SetAchievementDescription"/>
+			<method name="SetAchievementDescriptionImage"/>
+			<method name="SetFriendImage"/>
+			<method name="SetFriends"/>
+			<method name="SetUser"/>
+			<method name="SetUserImage"/>
+			<method name="TriggerAchievementDescriptionCallback"/>
+			<method name="TriggerFriendsCallbackWrapper"/>
+			<method name="TriggerResetAchievementCallback"/>
+			<method name="TriggerUsersCallbackWrapper"/>
+		</type>
+<!--THIS FILE IS GENERATED DURING BUILD. DO NOT HAND EDIT. See https://confluence.hq.unity3d.com/display/DEV/How+to+Use+Scripting+Classes+and+Methods+from+Native+Code for more info.-->
+		<type fullname="UnityEngine.SocialPlatforms.GameCenter.GcAchievementData" preserve="nothing"/>
+<!--THIS FILE IS GENERATED DURING BUILD. DO NOT HAND EDIT. See https://confluence.hq.unity3d.com/display/DEV/How+to+Use+Scripting+Classes+and+Methods+from+Native+Code for more info.-->
+		<type fullname="UnityEngine.SocialPlatforms.GameCenter.GcAchievementDescriptionData" preserve="nothing"/>
+<!--THIS FILE IS GENERATED DURING BUILD. DO NOT HAND EDIT. See https://confluence.hq.unity3d.com/display/DEV/How+to+Use+Scripting+Classes+and+Methods+from+Native+Code for more info.-->
+		<type fullname="UnityEngine.SocialPlatforms.GameCenter.GcScoreData" preserve="nothing"/>
+<!--THIS FILE IS GENERATED DURING BUILD. DO NOT HAND EDIT. See https://confluence.hq.unity3d.com/display/DEV/How+to+Use+Scripting+Classes+and+Methods+from+Native+Code for more info.-->
+		<type fullname="UnityEngine.SocialPlatforms.GameCenter.GcUserProfileData" preserve="nothing"/>
+	</assembly>
+</linker>

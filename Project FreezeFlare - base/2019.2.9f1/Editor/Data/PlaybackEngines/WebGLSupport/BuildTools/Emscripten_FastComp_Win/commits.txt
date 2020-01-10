@@ -1,0 +1,10 @@
+https://github.com/Unity-Technologies/emscripten-fastcomp.git
+732fa168fbc03749f7d36226ebbb661d9c0ce3ae
+https://github.com/Unity-Technologies/emscripten-fastcomp-clang.git
+20f3805f49e8c0ff2e169bbedc42792451bee62f
+https://github.com/Unity-Technologies/emscripten.git
+b5359c6e19ed2be8db1b45e745da5a4ca96d0323
+http://hg-mirror-agents-dub.bf.unity3d.com/unity-extra/Emscripten-Build
+38c2827684e6
+https://github.com/Unity-Technologies/binaryen.git
+353e2c4fcb7662b8c73f5673fd0fc21bcb7287c6
