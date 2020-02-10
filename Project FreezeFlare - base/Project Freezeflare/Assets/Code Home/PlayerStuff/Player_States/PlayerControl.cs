@@ -9,10 +9,12 @@ namespace Project_FreezeFlare
     {
         Move,
     }
-    public class PlayerMovement : MonoBehaviour
+    public class PlayerControl : MonoBehaviour
     {
         public float MovementSpeed;
         public Animator playerAnimator;
+        public bool MoveRight;
+        public bool MoveLeft;
         //I believe this is to help with multiple input types, this one for keyboard.
 
     }

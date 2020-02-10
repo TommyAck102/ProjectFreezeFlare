@@ -15,32 +15,31 @@ namespace Project_FreezeFlare
         public override void UpdateAbility(PlayerStateBase characterStateBase, Animator animator)
         {
 
-            PlayerMovement c = characterStateBase.GetPlayerControl(animator);
+            PlayerControl control = characterStateBase.GetPlayerControl(animator);
 
-            if (VirtualInputManager.Instance.MoveRight && VirtualInputManager.Instance.MoveLeft)
+            if (control.MoveRight && control.MoveLeft)
             {
                 animator.SetBool(TransitionParameter.Move.ToString(), false);
                 return;
             }
 
-            if (!VirtualInputManager.Instance.MoveLeft && !VirtualInputManager.Instance.MoveRight)
+            if (!control.MoveLeft && !control.MoveRight)
             {
                 animator.SetBool(TransitionParameter.Move.ToString(), false);
                 return;
             }
 
-            if (VirtualInputManager.Instance.MoveRight)
+            if (control.MoveRight)
             {
-                c.transform.Translate(Vector3.right * Speed * Time.deltaTime);
-                c.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+                control.transform.Translate(Vector3.right * Speed * Time.deltaTime);
+                control.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
 
             }
 
-            if (VirtualInputManager.Instance.MoveLeft)
+            if (control.MoveLeft)
             {
-                c.transform.Translate(Vector3.right * Speed * Time.deltaTime);
-                c.transform.rotation = Quaternion.Euler(0f, -180f, 0f);
-
+                control.transform.Translate(Vector3.right * Speed * Time.deltaTime);
+                control.transform.rotation = Quaternion.Euler(0f, -180f, 0f);
             }
         }
     }

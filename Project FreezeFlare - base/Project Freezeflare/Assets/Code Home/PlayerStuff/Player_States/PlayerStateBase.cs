@@ -24,13 +24,13 @@ namespace Project_FreezeFlare
         }
 
 
-        private PlayerMovement playerControl;
-        public PlayerMovement GetPlayerControl(Animator animator)
+        private PlayerControl playerControl;
+        public PlayerControl GetPlayerControl(Animator animator)
         {
             if(playerControl == null)
             {
 
-            playerControl = animator.GetComponentInParent<PlayerMovement>();
+            playerControl = animator.GetComponentInParent<PlayerControl>();
       
             }
 
