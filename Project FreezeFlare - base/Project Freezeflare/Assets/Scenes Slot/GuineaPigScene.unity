@@ -253,6 +253,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerController
       objectReference: {fileID: 0}
+    - target: {fileID: 8851184423094221395, guid: ffe22bccb3e675b43a8586eac21b8e90,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 787fb0d388bc137488b77f7418b2b161, type: 2}
+    - target: {fileID: 8851184423094221395, guid: ffe22bccb3e675b43a8586eac21b8e90,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2125263049182378625, guid: ffe22bccb3e675b43a8586eac21b8e90,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -308,16 +318,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8851184423094221395, guid: ffe22bccb3e675b43a8586eac21b8e90,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 787fb0d388bc137488b77f7418b2b161, type: 2}
-    - target: {fileID: 8851184423094221395, guid: ffe22bccb3e675b43a8586eac21b8e90,
-        type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8701554414787063445, guid: ffe22bccb3e675b43a8586eac21b8e90,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -343,6 +343,11 @@ PrefabInstance:
       propertyPath: playerAnimator
       value: 
       objectReference: {fileID: 399522031}
+    - target: {fileID: 2125263049182378624, guid: ffe22bccb3e675b43a8586eac21b8e90,
+        type: 3}
+      propertyPath: MovementSpeed
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffe22bccb3e675b43a8586eac21b8e90, type: 3}
 --- !u!4 &3539874852142196658
@@ -442,7 +447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 850788580}
-  smoothSpeed: 0.125
+  smoothSpeed: 0.75
   offset: {x: 0, y: 2, z: -10}
 --- !u!1001 &4556451699640670369
 PrefabInstance:
